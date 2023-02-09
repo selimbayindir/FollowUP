@@ -1,0 +1,2 @@
+Personel izin kontrolleri saðlanacak
+Ayný birimde olan personeller ayný tarihte izin alamayacak(validation)
