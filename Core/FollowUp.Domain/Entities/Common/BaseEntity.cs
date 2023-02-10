@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace FollowUp.Domain.Entities.Common
 {
-    internal class BaseEntity
+    public class BaseEntity
     {
+        public int Id { get; set; }
+
     }
 }

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\FollowUp.Application\FollowUp.Application.csproj" />
+  </ItemGroup>
+
 </Project>

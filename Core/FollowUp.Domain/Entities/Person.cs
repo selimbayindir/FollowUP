@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace FollowUp.Domain.Entities
 {
-    public class Company:BaseEntity
+    public class Person :BaseEntity
     {
-        public string CompanyName { get; set; }
-        ICollection<Department> Departments { get; set; }
+        public string PersonName { get; set; }
+        public int PersonSurname { get; set; }
 
     }
 }
